@@ -1,0 +1,27 @@
+/* navbar */
+.nav{
+    background-color: black;
+}
+
+/* First image + text */
+.jumbotron{
+    background-color: black;
+}
+
+.jumbotron img{
+    width: 400px;
+}
+
+.nav{
+    background-color: black;
+}
+
+h1{
+    margin-left: 60px;
+    font-size: 29px;
+    color: white;
+}
+
+strong{
+    color: lime;
+}
