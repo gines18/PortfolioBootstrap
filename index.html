@@ -14,28 +14,28 @@
 
 <main>
 
+<!-- navbar -->
   <section>
 <nav>
-<!-- navbar -->
-<ul class="nav justify-content-end">
+
+<ul class="nav  justify-content-end col-sm-12 col-md-12 col-lg-12">
   <li class="nav-item">
-    <a class="nav-link active" href="#">Home</a>
+    <a class="nav-link active custom-link text-white" href="#Home">Home</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">About</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Work</a>
+    <a class="nav-link text-white" href="#Work">Work</a>
   </li>
 
   <li class="nav-item">
-    <a class="nav-link" href="#">Skills</a>
+    <a class="nav-link text-white" href="#Skills">Skills</a>
   </li>
 
   <li class="nav-item">
-    <a class="nav-link" href="#">Contact</a>
+    <a class="nav-link text-white" href="#Contact">Contact</a>
   </li>
 </ul>
+
+
 
 </nav>
 </section>
@@ -43,15 +43,15 @@
 <!-- Hero section-->
 <section>
 
-<div class="jumbotron justify-content-between">
-    <div class="container d-flex " class="photo">
+<div class="jumbotron justify-content-center rounded-0" id="Home">
+    <div class="container d-flex" class="photo">
       
       <div class="row align-items-center">
 
         <div class="col-sm-12 col-md-6 col-lg-6">
       <img src="./img/Image.png" alt=""> </div>
       
-      <div class="col-sm-12 col-md-6 col-lg-6">
+      <div class="col-sm-12 col-md-6 col-lg-6 mt-5">
       <h1> Hi! I'm Mariusz, a <strong>Front End Web Developer.</strong>
       I love to create beautiful and performant products with delightful user experiences.</h1>
       </div>
@@ -61,18 +61,18 @@
   </div>
 </section>
 
-<section>
-  <!-- Work -->
-<div class="container">
+ <!-- Work -->
 
-  <div class="row justify-content-between">
+<div class="container" id="Work">
+
+  <div class="row justify-content-center">
   
     <div class="card mt-3" style="width: 18rem;">
       <img class="card-img-top" src="./img/architect.jpeg" alt="Card image cap">
-      <div class="card-body">
+      <div class="card-body justify-content-center">
         <h5 class="card-title">Architect</h5>
-        <p class="card-text">Website created for New York architect using Bootstrap 4</p>
-        <a href="http://www.google.com" class="btn btn-primary bg-dark">View</a>
+        <p class="card-text">Website created for New York architect using Bootstrap 4 and Java Script.</p>
+        <a href="http://www.google.com">View</a>
       </div>
     </div>
   
@@ -81,16 +81,17 @@
       <div class="card-body">
         <h5 class="card-title">Photographer</h5>
         <p class="card-text">Using Java Script I have implemented many elements which are interactive.</p>
-        <a href="http://www.google.com" class="btn btn-primary bg-dark">Take the tour</a>
+        <a href="http://www.google.com">Take the tour</a>
       </div>
     </div>
   
-    <div class="card mt-3" style="width: 18rem;">
+    <div class="card mt-3"  style="width: 18rem;">
       <img class="card-img-top" src="./img/florist.jpeg" alt="Card image cap">
       <div class="card-body">
         <h5 class="card-title">Florist</h5>
-        <p class="card-text">Static website designed using HTML/CSS</p>
-        <a href="http://www.google.com" class="btn btn-primary bg-dark">Find out more</a>
+        <p class="card-text">Static website designed using HTML/CSS. </p>
+        <br>
+        <a href="http://www.google.com">Find out more</a>
       </div>
     </div>
   
@@ -98,8 +99,9 @@
       <img class="card-img-top" src="./img/guitaryst.jpeg" alt="Card image cap">
       <div class="card-body">
         <h5 class="card-title">Guitarist</h5>
-        <p class="card-text">One page Portfolio</p>
-        <a href="http://www.google.com" class="btn btn-primary bg-dark">See the project</a>
+        <p class="card-text">One page Portfolio </p>
+        <br>
+        <a href="http://www.google.com">See the project</a>
       </div>
     </div>
   
@@ -108,26 +110,27 @@
       <div class="card-body">
         <h5 class="card-title">Manager</h5>
         <p class="card-text">Combined Java Script/HTML/CSS</p>
-        <a href="http://www.google.com" class="btn btn-primary bg-dark">Discover more</a>
+        <br>
+        <a href="http://www.google.com">Discover more</a>
       </div>
     </div>
   
     <div class="card mt-3" style="width: 18rem;">
-      <img class="card-img-top" src="./img/webdesigner.jpeg" alt="Card image cap">
+      <img class="card-img-top" src="./img/webdesigner.png" alt="Card image cap">
       <div class="card-body">
         <h5 class="card-title">Web designer</h5>
         <p class="card-text">Website designed with svg images.</p>
-        <a href="http://www.google.com" class="btn btn-primary bg-dark">See now</a>
+        <a href="http://www.google.com">See now</a>
       </div>
     </div>
   
   </div>
   
   </div>
-</section>
+
 
 <!-- Skills section -->
-<section>
+<section id="Skills">
 <div class="row justify-content-center mt-5">
   <div class="col-6 list-group ">
     <button type="button" class="list-group-item list-group-item-action active bg-dark">
@@ -140,12 +143,43 @@
     <button type="button" class="list-group-item list-group-item-action">Working with ES6 and Node</button>
     <button type="button" class="list-group-item list-group-item-action">Object-Oriented Programming</button>
     <button type="button" class="list-group-item list-group-item-action">Modern Development with React</button>
-    <button type="button" class="list-group-item list-group-item-action">Working with APIs</button>
+   
   </div>
 </div>
   
 </section>
 
+<section>
+<div class="row justify-content-center">
+  <div class="col-5">
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+  </div>
+</div>
+</div>
+</section>
+
+<!-- Contact  -->
+<footer>
+<section class="container2" id="Contact mb-5">
+
+  <div class="card text-center mt-5">
+    
+    <div class="card-body">
+      <h5 class="card-title">Contact</h5>
+      <a href="http://www.instagram.com" class="btn btn-primary">Instagram</a>
+      <a href="http://www.twitter.com" class="btn btn-primary">Twitter</a>
+      <a href="http://www.Facebook.com" class="btn btn-primary">Facebook</a>
+    
+    </div></div>
+
+    </div>
+    
+    </div>
+  </div>
+</section>
+
+</footer>
 </main>
 
 

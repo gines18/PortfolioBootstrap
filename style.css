@@ -1,21 +1,24 @@
+
 /* navbar */
 .nav{
     background-color: black;
 }
 
+
 /* First image + text */
 .jumbotron{
     background-color: black;
+    border-radius: 0rem;
 }
 
 .jumbotron img{
     width: 400px;
 }
 
-.nav{
-    background-color: black;
+body{
+    margin: 0;
+    padding: 0;
 }
-
 h1{
     margin-left: 59px;
     font-size: 29px;
@@ -25,4 +28,7 @@ h1{
 strong{
     color: lime;
 }
+
+
+
 
