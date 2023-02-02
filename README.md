@@ -2,7 +2,7 @@
 This is a portfolio website designed using Bootstrap, a popular front-end framework for building responsive and mobile-friendly websites. 
 
 <img src="https://github.com/gines18/PortfolioBootstrap/blob/main/img/AboutSection.png">
-<img src="https://github.com/gines18/PortfolioBootstrap/blob/main/img/PortfolioSection.png">
+<img src="https://github.com/gines18/PortfolioBootstrap/blob/main/img/PortforlioSection.png?raw=true">
 <img src="https://github.com/gines18/PortfolioBootstrap/blob/main/img/Skills-Contact-Section.png">
 
 Features
